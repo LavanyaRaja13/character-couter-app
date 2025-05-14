@@ -7,7 +7,26 @@
     <title>Character couter app</title>
 </head>
 <body>
-    <h1>Character Counter</h1>
+    <div class="main">
+        <div class="main-header">
+            <img class="main-header-brandLogo" src="/logo.png" alt="logo">
+            <span>Character Counter</span>
+            <img src="/brightness.png" alt="brightness" class="main-header-brightness">
+        </div>
+        <div class="main-content">
+            <h1 class="main-content-title lato-black">Analyze your text in real-time.</h1>
+            <textarea class="main-content-inputbox" placeholder="Start typing here...(or paste your text)"></textarea>
+            <div class="main-content-checkbox">
+                <input type="checkbox" class="main-content-checkbox_1">
+                <label for="main-content-checkbox_1"> Exclude Spaces</label>
+                <input type="checkbox" class="main-content-checkbox_2">
+                <label for="main-content-checkbox_2"> Set character limit</label>
+                <h6>Approx. Reading time : 0 minute</h6>
+            </div>
+        </div>
+
+        
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>

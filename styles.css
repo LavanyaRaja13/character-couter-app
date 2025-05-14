@@ -1,3 +1,109 @@
-h1 {
-  color: #000;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+
+.main {
+  padding: 3% 15%;
+}
+.main-header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+.main-header-brightness {
+  position: absolute;
+  right: 0;
+}
+.main-content-title {
+  padding: 20px 200px;
+}
+.main-content-inputbox {
+  width: -webkit-fill-available;
+  height: 150px;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: #201f1f;
+}
+.main-content-inputbox::-moz-placeholder {
+  color: #fff;
+}
+.main-content-inputbox::placeholder {
+  color: #fff;
+}
+.main-content-checkbox {
+  padding: 10px 0;
+}
+.main-content-checkbox label {
+  padding: 0 10px 0 0;
 }/*# sourceMappingURL=styles.css.map */
