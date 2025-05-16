@@ -3,8 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #000;
-  color: #fff;
 }
 
 .lato-thin {
@@ -67,9 +65,16 @@
   font-style: italic;
 }
 
+.background-updated {
+  background-color: white;
+  color: black;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: normal;
+  background-color: #000;
+  color: #fff;
 }
 
 .main {
@@ -94,6 +99,7 @@ body {
   border-radius: 10px;
   padding: 8px;
   background-color: #201f1f;
+  color: #fff;
 }
 .main-content-inputbox::-moz-placeholder {
   color: #fff;
@@ -102,8 +108,33 @@ body {
   color: #fff;
 }
 .main-content-checkbox {
-  padding: 10px 0;
+  padding: 10px 0 30px 0;
+  position: relative;
 }
 .main-content-checkbox label {
   padding: 0 10px 0 0;
+}
+.main-content-checkbox h5 {
+  display: inline;
+  position: absolute;
+  right: 0;
+}
+.main-content-counter {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  color: #000;
+}
+.main-content-counter div {
+  border-radius: 5px;
+  padding: 20px;
+}
+.main-content-counter-character {
+  background-color: hsl(274, 92%, 81%);
+}
+.main-content-counter-word {
+  background-color: hsl(38, 100%, 50%);
+}
+.main-content-counter-sentence {
+  background-color: hsl(15, 99%, 67%);
 }/*# sourceMappingURL=styles.css.map */
